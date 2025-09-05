@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jarvis App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <div class="chat-history">
+                    <h3>Chat History</h3>
+                    <button class="new-chat-btn">+ New Chat</button>
+                    <div class="chat-list">
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="main-content">
+                <h1>Good Evening.</h1>
+                <input type="text" class="text-input" id="request" name="request" placeholder="How can I assist you today?">
+                <div class="chat-display hidden" id="chat-display">
+
+                </div>
+            </div>
+            <div class="button-container">
+                <button class="email-button">
+                    <img src="images/email.png">
+                    <p>Integrate Email</p>
+                </button>
+                <button class="calendar-button">
+                    <img src="images/calendar.png">
+                    <p>Integrate Calendar</p>
+                </button>
+                <button class="notion-button">
+                    <img src="images/notion.png">
+                    <p>Integrate Notion</p>
+                </button>
+            </div>
+        </div>
+
+        <script src="renderer.js"></script>
+
+    </body>
+</html>
